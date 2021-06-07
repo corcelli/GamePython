@@ -1,6 +1,7 @@
 import requests, json, psycopg2
 from time import sleep
 from game_loft import loft_attach
+from mod_chat import msg_chat_read, msg_server_read
 gameuuid='23cc8c85-8b7c-48c2-ab19-8694ba54e410'
 playeruuid='8acd6017-e82e-49f7-bce5-6e76cc5ac3eb'
 id=1
